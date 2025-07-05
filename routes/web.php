@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/add', [HomeController::class, 'categoryAdd']);
+Route::get('/art', [HomeController::class, 'articleAdd']);
